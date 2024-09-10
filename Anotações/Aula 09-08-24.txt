@@ -1,0 +1,44 @@
+ENTITY FRAMEWORK -------------------------------------------------------------------------------------------------------------------------------
+
+º Ferramenta da Microsoft que permite ao desenvolvedor trabalhar com bancos de dados relacional de maneira abstrata;
+º Framework ORM (Object-Relational Mapping).
+º Se estamos utilizando uma base de dados relacional, haverá uma diferença entre dados e as classes do domínio da aplicação
+º Usamos ORM para eliminar esta diferença e ignorar os problemas de persistência de dados, focando no código da aplicação e otimizando as questões 	de SQL - Structured Query Language.
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+ORM
+
+ºAbreviação para Object-Relational Mapping (mapeamento de mapa relacional)
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+CONEXÃO AO BD
+
+* Existem basicamente 2 maneiras de conectar ao BD:
+	- ADO.NET (Acess Data Object) Por meio das classes DbConnection, DbCommand, etc, podemos escrever manualmente os SQL.
+	- ORM: Abstrai todo o processo do ADO.NET e cria os comandos SQL automaticamente.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+COMO FUNCIONA O EF?
+
+º 3 formas de trabalhar com EF:
+	* DataBase-First: o bd já existe, as classes são criadas baseadas nele;
+	* Model-First: o bd não existe, é criado um modelo conceitual e através dele é gerado um script para criação
+	* Code-First: Talvez a MELHOR forma, o bd ainda não existe, são criados as classes simples, através dela toda a lógica de entidade é 			criada.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
